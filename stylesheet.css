@@ -1,31 +1,52 @@
-h1{
-    height: 100px;
-    width: 100px;
+h2{
+    
     font-size: 20px;
     font-family: Verdana, Arial, Sans-Serif;
     position: relative;
-    display: inline-block;
-    left: 700px;
+    
+    left: 600px;
+}
+
+h3{
+    
+    font-size: 20px;
+    font-family: Verdana, Arial, Sans-Serif;
+    position: relative;
+    
+    left: 600px;
+}
+
+p{
+    
+    font-size: 20px;
+    font-family: Verdana, Arial, Sans-Serif;
+    position: relative;
+    
+    left: 600px;
 }
 
 #green_button {
    
     height: 100px;
-    width: 100px;
+    width: 95px;
     font-size: 12px;
     font-family: Verdana, Arial, Sans-Serif;
     display: inline-block;
     background-color: green;
+    left: 600px;
+    position: relative;
 }
 
 #blue_button {
    
     height: 100px;
-    width: 100px;
+    width: 95px;
     font-size: 12px;
     font-family: Verdana, Arial, Sans-Serif;
     display: inline-block;
     background-color: blue;
+    left: 600px;
+    position: relative;
 }
 
 #yellow_button {
@@ -36,4 +57,5 @@ h1{
     font-family: Verdana, Arial, Sans-Serif;
     display: inline-block;
     background-color: yellow;
+    left: 600px; position: relative;
 }

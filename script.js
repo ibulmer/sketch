@@ -11,7 +11,7 @@ $(document).ready(function(){
     
 }
     myHtml= "<div id='box'>"+myHtml + "</div>";
-    myCSS += "<style> .cow {height: 50px; width: 50px; background-color: green; display: inline-block; opacity: 0.3;}</style>"
+    myCSS += "<style> .cow {height: 50px; width: 50px; background-color: green; display: inline-block; opacity: 0.3; left: 600px; position: relative;}</style>"
   
     $('body').append(myHtml);
     $('head').append(myCSS);
@@ -39,7 +39,7 @@ $(document).ready(function(){
     
 }
     myHtml= "<div id='box'>"+myHtml + "</div>";
-    myCSS += "<style> .cow {height: "+tall+"px; width: "+wide+"px; background-color: green; display: inline-block; opacity: 0.3; margin: 0px; 	border: 0px;}</style>";
+    myCSS += "<style> .cow {height: "+tall+"px; width: "+wide+"px; background-color: green; display: inline-block; opacity: 0.3; margin: 0px; 	border: 0px; left: 600px; position: relative;}</style>";
   
     $('body').append(myHtml);
     $('head').append(myCSS);
@@ -68,7 +68,7 @@ $('#blue_button').click(function(){
     
 }
     myHtml= "<div id='box'>"+myHtml + "</div>";
-    myCSS += "<style> .cow {height: "+tall+"px; width: "+wide+"px; background-color: blue; display: inline-block; opacity: 0.3; margin: 0px; 	border: 0px;}</style>";
+    myCSS += "<style> .cow {height: "+tall+"px; width: "+wide+"px; background-color: blue; display: inline-block; opacity: 0.3; margin: 0px; 	border: 0px; left: 600px; position: relative;}</style>";
   
     $('body').append(myHtml);
     $('head').append(myCSS);
@@ -97,7 +97,7 @@ $('#yellow_button').click(function(){
     
 }
     myHtml= "<div id='box'>"+myHtml + "</div>";
-    myCSS += "<style> .cow {height: "+tall+"px; width: "+wide+"px; background-color: yellow; display: inline-block; opacity: 0.3; margin: 0px; 	border: 0px;}</style>";
+    myCSS += "<style> .cow {height: "+tall+"px; width: "+wide+"px; background-color: yellow; display: inline-block; opacity: 0.3; margin: 0px; 	border: 0px; left: 600px; position: relative;}</style>";
   
     $('body').append(myHtml);
     $('head').append(myCSS);
