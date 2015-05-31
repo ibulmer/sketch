@@ -27,8 +27,8 @@ $(document).ready(function(){
     
     var myHtml = "";
     var myCSS = "";
-    var x = prompt("enter value for x");
-    var y = prompt("enter value for y"); 
+    var x = prompt("enter a number between 1 and 50");
+    var y = prompt("enter a number between 1 and 50"); 
     var wide= 500/y
     var tall= 500/x
     for (var counter = 0; counter < x; counter++) {
@@ -56,8 +56,8 @@ $('#blue_button').click(function(){
     
     var myHtml = "";
     var myCSS = "";
-    var x = prompt("enter value for x");
-    var y = prompt("enter value for y"); 
+    var x = prompt("enter a number between 1 and 50");
+    var y = prompt("enter a number between 1 and 50"); 
     var wide= 500/y
     var tall= 500/x
     for (var counter = 0; counter < x; counter++) {
@@ -85,8 +85,8 @@ $('#yellow_button').click(function(){
     
     var myHtml = "";
     var myCSS = "";
-    var x = prompt("enter value for x");
-    var y = prompt("enter value for y"); 
+    var x = prompt("enter a number between 1 and 50");
+    var y = prompt("enter a number between 1 and 50"); 
     var wide= 500/y
     var tall= 500/x
     for (var counter = 0; counter < x; counter++) {
